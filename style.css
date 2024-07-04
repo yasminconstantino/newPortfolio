@@ -48,6 +48,7 @@ body {
   text-align: center;
   bottom: 200px;
   left: 400px;
+  align-items: center;
 }
 /*
 button{
@@ -102,13 +103,20 @@ button:hover {
 .menu:hover {
   pointer-events: all;
 }
+
 .label {
   color: #531A60;
+  background-color: #0c0c0c;
   font-size: 24px;
   display: inline-block;
   cursor: pointer;
   pointer-events: all;
+  border-radius: 10px;
+  opacity: 0.95;
+  padding: 8px;
+  font-weight: bolder;
 }
+
 .spacer {
   display: inline-block;
   width: 80px;
@@ -242,6 +250,33 @@ span {
   color: #7e4a81;
 }
 
+.item span {
+  border-radius: 15px;
+  align-self: center;
+  padding: 1px 40px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #531A60;
+  color: #fff;
+  opacity: 0.95;
+  padding: 8px;
+  font-weight: bolder;    ;
+  font-size: 20px;
+  border: 2px solid #531A60;
+}
+
+.item span:hover{
+  opacity: 0.6;
+  background-color: #531A60;
+  color: #adabab;
+  transition: 0.3s;
+  border-radius: 10px;
+  border: 1px solid #531A60;
+}
+
+div .label
+
 h2 {
   color: #474747;
   font-family: "Inknut Antiqua", serif;
@@ -250,7 +285,7 @@ h2 {
 }
 
 a {
-  color: #531A60;
+  color: #000;
   font-family: "Inknut Antiqua", serif;
     font-weight: 100;
   text-decoration: none;
